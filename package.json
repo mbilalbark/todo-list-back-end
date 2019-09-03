@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-back-end",
+  "version": "1.0.0",
+  "description": "node.QL api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbilalbark/todo-list-back-end.git"
+  },
+  "author": "mbilalbark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbilalbark/todo-list-back-end/issues"
+  },
+  "homepage": "https://github.com/mbilalbark/todo-list-back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4",
+    "graphql-iso-date": "^3.6.1",
+    "mongoose": "^5.6.11"
+  }
+}
