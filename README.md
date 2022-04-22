@@ -36,9 +36,9 @@ task:{
 
 ## GraphQL Queries
 
-> Add Task
+> ### Add Task
 
-```json
+```javascript
 mutation{
   addTask(title:"Example", deadline:"2019-09-18T16:00:00.000Z"){
    _id
@@ -50,7 +50,7 @@ mutation{
 }
 ```
 > Task Get By Id
- ``` json 
+ ``` javascript 
  {
   task(id:"5d6dd71afdbd8527a8930185"){
   	title
@@ -61,7 +61,7 @@ mutation{
 }
  ```
  > Update Task 
- ```json
+ ```javascript
  mutation{
   updateTask(id:"5d6dd71afdbd8527a8930185",title:"updated",deadline:"2019-11-18T16:00:00.000Z"){
     _id
@@ -72,7 +72,7 @@ mutation{
 }
  ```
 > Task List
- ``` json 
+ ``` javascript 
 {
   tasks{
 	_id 
@@ -85,7 +85,7 @@ mutation{
 }
  ```
  >Delete Task
- ``` json 
+ ``` javascript 
 mutation{
   deleteTask(id:"5d6dd71afdbd8527a8930185"){
     _id
@@ -98,7 +98,8 @@ mutation{
 }
  ```
  >Finish Task
-  ``` json 
+ 
+  ``` javascript 
 mutation{
   finishTask(id:"5d6dd71afdbd8527a8930185"){
     _id
